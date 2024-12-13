@@ -1,0 +1,27 @@
+#header {
+  width: 100%;
+}
+
+.action-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.action-buttons {
+  display: flex;
+}
+
+.search-input {
+  .css-1mnoz6i-MuiInputBase-root-MuiOutlinedInput-root {
+    padding-right: 0;
+  }
+
+  .css-qve9l1-MuiInputBase-input-MuiOutlinedInput-input {
+    padding: 4px;
+  }
+
+  .css-1abvrni-MuiButtonBase-root-MuiButton-root {
+    padding: 3px 16px;
+  }
+}

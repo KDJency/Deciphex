@@ -1,0 +1,7 @@
+#case-view {
+  display: flex;
+  flex-direction: column;
+  margin: 36px;
+  width: calc(100vw - 310px);
+  height: calc(100vh - 72px);
+}

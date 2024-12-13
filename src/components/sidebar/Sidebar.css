@@ -1,0 +1,43 @@
+#sidebar {
+  width: 216px;
+  height: 100vh;
+  border-right: 1px solid lightgrey;
+  display: flex;
+  flex-direction: column;
+  background-color: #F4F7FC;
+}
+
+#all-cases {
+  margin-top: 120px;
+}
+
+.case-button {
+  height: 56px;
+  border-radius: 0 8px 8px 0;
+  margin-right: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+
+  &.selected {
+    background-color: #0A65FF;
+    /* background-color: rgba(10, 101, 255, 0.1); */
+    color: white;
+  }
+
+  &:hover:not(.selected) {
+    background-color: #DAE1EC;
+  }
+}
+
+.case-name {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+}
+
+.case-icon {
+  width: 24px;
+  height: 24px;
+  padding: 0 16px;
+}

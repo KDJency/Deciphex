@@ -1,0 +1,7 @@
+.column-checkbox {
+  margin: 0 !important;
+
+  &:hover {
+    background-color: #DAE1EC;
+  }
+}
